@@ -25,7 +25,7 @@ const CustomerForm = () => {
       const response = await axios.post(
         "/open-apis/bitable/v1/apps/baslgxo3p0K3WWB43Qr5nwIgxzc/tables/tblba5tDqZNpnB3K/records",
         {
-          field: {
+          fields: {
             name,
             phone,
             email,
@@ -33,7 +33,7 @@ const CustomerForm = () => {
         },
         {
           headers: {
-            Authorization: `Bearer u-0vYik.MYh9QXrAA8zTlC4o51gtGrkhY1pM0w1lg02FhG`,
+            Authorization: `Bearer u-34VZml.ytbGpFL6yNXAboT51gRGXkh.FWw0wk4402J4L`,
             "Access-Control-Allow-Origin": "*",
             "Content-Type": "application/json",
           },
@@ -77,7 +77,7 @@ const CustomerForm = () => {
           placeholder="Nhập email khách hàng"
           onChange={(e) => setEmail(e.target.value)}
         />
-        <Button onClick={() => handleSubmit()}>Submit</Button>
+        <Button onClick={() => handleSubmit()}>Submit Nè</Button>
       </VStack>
     </Box>
   );
