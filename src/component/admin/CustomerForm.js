@@ -33,7 +33,7 @@ const CustomerForm = () => {
         },
         {
           headers: {
-            Authorization: `Bearer u-34VZml.ytbGpFL6yNXAboT51gRGXkh.FWw0wk4402J4L`,
+            Authorization: `Bearer u-2GBaQMiZ9azH3XEGFDgVWc51gZwXkhk1X00whgg02I1.`,
             "Access-Control-Allow-Origin": "*",
             "Content-Type": "application/json",
           },
